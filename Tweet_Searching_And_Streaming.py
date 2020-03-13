@@ -5,7 +5,7 @@ TweetListener = streaming.StreamListener
 
 '''
 
-A reference of an analogous Twitter task has been taken from a YouTube video. But the program has not been copied entirely
+A reference of an analogous Twitter task has been taken from a YouTube video. But the program has not been copied.
 Reference Link: https://youtu.be/wlnx-7cm4Gg
 
 '''
@@ -24,7 +24,7 @@ class TweetsExtractor():
 		stream = Stream(auth, listener)
 		stream.filter(track=hash_tag_list)
 
-# Class for retrieving Tweets from Tweepy
+# Class for searching and streaming Tweets from Tweepy
 class MyListener(TweetListener):
 
 	def __init__(self, file_name1):
